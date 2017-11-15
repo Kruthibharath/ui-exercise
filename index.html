@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ValTech Webpage</title>
+    <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <nav class="nav" role="navigation">
+                <div class="nav-container">
+                     <div class="navbar">
+                        <a href="index.html">Home</a>
+                        <a href="/about">About</a>
+                        <a href="/Blog">Blog</a>
+                        <a href="javascript:void(0);" onclick="showHide()">Sidebar</a>
+                    </div>
+                </div> 
+            </nav>
+        </header>
+        <div class="container-fluid" id="main">
+            <section id="content">
+                <div class="row">
+                        <div class="col-md-4 align">
+                            <img  class="responsive" src="images/img1.png" alt="image for Vlisco" />
+                                 <h3>Vlisco</h3>
+                                <p class="desc">E-commerce with a colourful story</p>
+                        </div>
+                         <div class="col-md-4 align">
+                            <img  class="responsive" src="images/img2.png" alt="image for Copenhagen Airports"/>
+                                 <h3>Copenhagen Airports</h2>
+                                <p class="desc">Knowing Your Customer in the Digital Age</p>
+                        </div>
+                         <div class="col-md-4 align">
+                            <img  class="responsive" src="images/img3.png" alt="image for TV4 Play" />
+                                 <h3>TV4 Play</h3>
+                                <p class="desc">From TV channel to the leading content provider</p>
+                        </div>
+                         <div class="col-md-4 align">
+                            <img class="responsive" src="images/img4.png" alt="image for Audi City"/>
+                                 <h3>Audi City</h3>
+                                <p class="desc">How to purchase a real car in a virtual store</p>
+                        </div>
+                         <div class="col-md-4 align">
+                            <img class="responsive "src="images/img5.png" alt="image for Arla Foods" />
+                                 <h3>Arla Foods</h3>
+                                <p class="desc">Dairy production in Big Data</p>
+                        </div>
+                        <div class="col-md-4 align">
+                            <img  class="responsive" src="images/img6.png" alt="image for Xylem" />
+                                <h3>Xylem</h3>
+                                <p class="desc">Helping the world's largest water technology provider solve the global water crisis through Business Transformation</p>
+                        </div>
+                    </div>
+            </section>
+            <aside id="sidebar">
+                <section class="widgets" id="widget_1">
+                      <a class="text-center" href="#">Industries</a>
+                      
+                </section>
+                <section class="widgets" id="widget_2">
+                        <a class="text-center" href="#">Case Studies</a>
+                               
+                </section>
+                <section class="widgets" id="widget_3">
+                     <a class="text-center" href="#">Blogs</a>
+                               
+                </section>
+            </aside>
+        </div>
+        <footer id="footer">
+            <p class="copyright" >&copy;2017 ValTech</p>
+        </footer>
+    </div>
+     <script src="test.js" type="application/javascript"></script>
+<!--    <script>
+        function showHide(){
+            $('#sidebar').slideToggle(2000);
+        }
+    </script>-->
+</body>
+</html>
